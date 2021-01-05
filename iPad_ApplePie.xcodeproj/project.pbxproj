@@ -13,6 +13,7 @@
 		88FFBE5225A33C8A00F6889B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FFBE5025A33C8A00F6889B /* Main.storyboard */; };
 		88FFBE5425A33C8D00F6889B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FFBE5325A33C8D00F6889B /* Assets.xcassets */; };
 		88FFBE5725A33C8D00F6889B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FFBE5525A33C8D00F6889B /* LaunchScreen.storyboard */; };
+		88FFBE6125A3452B00F6889B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFBE6025A3452B00F6889B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88FFBE5325A33C8D00F6889B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FFBE5625A33C8D00F6889B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FFBE5825A33C8D00F6889B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FFBE6025A3452B00F6889B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				88FFBE5325A33C8D00F6889B /* Assets.xcassets */,
 				88FFBE5525A33C8D00F6889B /* LaunchScreen.storyboard */,
 				88FFBE5825A33C8D00F6889B /* Info.plist */,
+				88FFBE6025A3452B00F6889B /* Game.swift */,
 			);
 			path = iPad_ApplePie;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				88FFBE4F25A33C8A00F6889B /* ViewController.swift in Sources */,
 				88FFBE4B25A33C8900F6889B /* AppDelegate.swift in Sources */,
 				88FFBE4D25A33C8900F6889B /* SceneDelegate.swift in Sources */,
+				88FFBE6125A3452B00F6889B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-ApplePie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-ApplePie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
